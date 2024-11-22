@@ -1,0 +1,411 @@
+/* Định dạng cơ bản cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;  /* Màu nền cho navbar */
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    background-color: #575757;  /* Màu nền khi di chuột qua */
+    border-radius: 5px;
+}
+
+/* Tiêu đề trang */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+/* Hiển thị danh sách sách */
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.book-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #fff;
+}
+
+.book-item h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* CSS TRANG ADD */
+/* CSS TRANG ADD */
+
+/* Định dạng chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng cho tiêu đề */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+/* Định dạng cho form */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Các trường nhập liệu */
+label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #555;
+    display: block;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Nút submit */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049; /* Màu khi hover */
+}
+
+/* Thêm một số khoảng cách giữa các phần tử */
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Định dạng cho các thông báo lỗi */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* CSS TRANG END ADD */
+
+
+/* CSS TRANG INDEX */
+
+/* Định dạng cơ bản cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;  /* Màu nền nhẹ nhàng */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;  /* Màu nền navbar */
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    background-color: #575757;  /* Màu nền khi di chuột qua */
+    border-radius: 5px;
+}
+
+/* Tiêu đề trang */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Hiển thị danh sách sách */
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.book-item {
+    margin: 15px;
+    padding: 15px;
+    width: 280px;  /* Điều chỉnh chiều rộng cho các sách */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hiệu ứng khi hover trên các item sách */
+.book-item:hover {
+    transform: translateY(-5px);  /* Đẩy sách lên khi hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);  /* Làm nổi bật item */
+}
+
+/* Định dạng cho tiêu đề sách */
+.book-item h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho các thông tin sách */
+.book-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.book-item p strong {
+    color: #333;
+}
+
+/* Điều chỉnh cho các phần tử khác */
+@media screen and (max-width: 768px) {
+    .books-list {
+        flex-direction: column;  /* Khi màn hình nhỏ, hiển thị theo cột */
+    }
+
+    .book-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* CSS TRANG END INDEX */
+
+
+/* CSS TRANG EDIT */
+
+/* Định dạng cơ bản cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề trang */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Định dạng cho form */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Các trường nhập liệu */
+label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #555;
+    display: block;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Nút submit */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049; /* Màu khi hover */
+}
+
+/* Thêm một số khoảng cách giữa các phần tử */
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Định dạng cho các thông báo lỗi */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Responsive: Thay đổi cấu trúc cho các màn hình nhỏ */
+@media screen and (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+/* CSS TRANG END EDIT */
+
+/* CSS FOR MANAGE */
+
+
+/* Manage Books Page */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Thêm liên kết để thêm sách mới */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #45a049;  /* Màu nền khi hover */
+}
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .books-list {
+        width: 100%;
+    }
+
+    .book-item {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* CSS FOR MANAGE */
